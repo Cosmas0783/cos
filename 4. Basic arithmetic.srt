@@ -1,0 +1,423 @@
+1
+00:00:00,360 --> 00:00:05,910
+OK, welcome to Basic Arithmetic in this lesson, we're going to take a look at just some basic math.
+
+2
+00:00:05,910 --> 00:00:10,260
+And this is really, really important to know because we can do some really cool things with simple,
+
+3
+00:00:10,260 --> 00:00:11,420
+simple mathematics.
+
+4
+00:00:11,820 --> 00:00:17,760
+So, for example, we're going to be talking about addition, subtraction, division, multiplication,
+
+5
+00:00:17,940 --> 00:00:21,180
+exponents, and this thing called Modulus, which is really just a reminder.
+
+6
+00:00:21,180 --> 00:00:23,910
+It's a it's a it's a really fancy word for remainder.
+
+7
+00:00:24,360 --> 00:00:30,210
+And so what you see in front of me here is I have just gone to file open and I opened a whole folder
+
+8
+00:00:30,210 --> 00:00:31,560
+called Python 101.
+
+9
+00:00:31,560 --> 00:00:33,480
+And you can do this on your voice code as well.
+
+10
+00:00:33,660 --> 00:00:35,190
+And it just opened up this folder for me.
+
+11
+00:00:35,190 --> 00:00:40,070
+So all of my working files are going to be on the side in on the left here.
+
+12
+00:00:40,230 --> 00:00:43,890
+And so I want to go over to view and open up my terminal again.
+
+13
+00:00:45,590 --> 00:00:50,930
+And this way, we've got our files on the left and we have our terminal at the bottom and we can write
+
+14
+00:00:50,930 --> 00:00:54,490
+some code up top, up top in here.
+
+15
+00:00:55,100 --> 00:00:57,010
+And so let's take a look at some basic arithmetic.
+
+16
+00:00:57,020 --> 00:00:58,940
+Now, there's two ways we can execute Python.
+
+17
+00:00:58,940 --> 00:01:05,750
+We can execute Python in a DCPI file like we did in the last lesson where we had Hello World or in your
+
+18
+00:01:05,750 --> 00:01:06,260
+terminal.
+
+19
+00:01:06,260 --> 00:01:09,860
+Wherever you want to use that, you can simply type Python.
+
+20
+00:01:10,610 --> 00:01:16,370
+And if you want to get out of this python shell, we can just type quit opening and closing parentheses
+
+21
+00:01:16,490 --> 00:01:17,570
+and that will quit it for us.
+
+22
+00:01:17,910 --> 00:01:23,540
+So I could type Python three point nine and you can see that the first one was using Python three point
+
+23
+00:01:23,540 --> 00:01:25,010
+eight because I haven't made that alias yet.
+
+24
+00:01:25,010 --> 00:01:26,900
+I said I was going to but I haven't got around to it yet.
+
+25
+00:01:27,440 --> 00:01:29,000
+And this one is Python three point nine.
+
+26
+00:01:30,060 --> 00:01:32,380
+And so now we can do some basic arithmetic in here.
+
+27
+00:01:32,400 --> 00:01:34,230
+Let's go ahead and move this up.
+
+28
+00:01:35,130 --> 00:01:38,010
+And let's do some basic arithmetic so we could do like five.
+
+29
+00:01:39,590 --> 00:01:46,220
+Plus five is going to be 10, and this is just executing simple python for us right in our python shell.
+
+30
+00:01:47,030 --> 00:01:47,750
+So that's a decision.
+
+31
+00:01:47,750 --> 00:01:48,760
+We just use a plus sign.
+
+32
+00:01:48,770 --> 00:01:50,420
+Subtraction is very, very similar.
+
+33
+00:01:50,870 --> 00:01:52,940
+Let's go ahead and make this just a wee bit bigger here.
+
+34
+00:01:56,680 --> 00:01:59,080
+We could do like 99, minus 11.
+
+35
+00:01:59,110 --> 00:02:05,040
+That's going to give us 88, four times four is going to be 16 and we just use an asterisk.
+
+36
+00:02:05,050 --> 00:02:11,020
+So on a standard North American English keyboard, you use shift eight and that gives you this little
+
+37
+00:02:11,020 --> 00:02:11,590
+character here.
+
+38
+00:02:13,830 --> 00:02:19,380
+And so when I hit enter, that's going to be 16 division is just a slash just like that.
+
+39
+00:02:19,410 --> 00:02:23,640
+So we could do 100 divided by 25 and that's going to give us four.
+
+40
+00:02:24,710 --> 00:02:28,790
+And you can actually see that gave us 4.0, that's technically a float, that's not an integer.
+
+41
+00:02:28,800 --> 00:02:30,490
+We're going to talk about these in the future.
+
+42
+00:02:30,950 --> 00:02:34,190
+Now to clear your terminal, let's say I write a bunch of stuff and gives me errors.
+
+43
+00:02:34,640 --> 00:02:35,960
+I can just hit control.
+
+44
+00:02:35,960 --> 00:02:39,690
+L control l tends to clean out the terminal for me.
+
+45
+00:02:39,710 --> 00:02:41,480
+So that's what I'm going to be doing in the future.
+
+46
+00:02:42,490 --> 00:02:43,870
+Now, let's talk about exponents.
+
+47
+00:02:43,990 --> 00:02:48,900
+We could do four to the power of four, that's to multiplication sign side by side.
+
+48
+00:02:48,910 --> 00:02:50,260
+That is the power of.
+
+49
+00:02:50,800 --> 00:02:53,020
+So in other languages, it sometimes looks like this.
+
+50
+00:02:53,020 --> 00:02:55,740
+Four to the power of four in Python.
+
+51
+00:02:55,750 --> 00:02:58,000
+It's four star star four.
+
+52
+00:02:58,000 --> 00:02:59,330
+And that gives us an exponent.
+
+53
+00:02:59,350 --> 00:03:04,910
+So this is going to be four times four times four, which in my mind is going to be 64.
+
+54
+00:03:05,140 --> 00:03:05,530
+Nope.
+
+55
+00:03:05,530 --> 00:03:07,510
+I was super, super wrong to 56.
+
+56
+00:03:07,520 --> 00:03:11,200
+This is why we let computers do mathematics for us.
+
+57
+00:03:11,980 --> 00:03:18,430
+And then we have this weird one called modules, modules, modules, modules.
+
+58
+00:03:18,760 --> 00:03:20,920
+And all this is going to do is give us a remainder.
+
+59
+00:03:20,920 --> 00:03:25,960
+So if we did ten divided by three, we're going to see three point three three three three three three
+
+60
+00:03:25,960 --> 00:03:26,790
+three five.
+
+61
+00:03:26,960 --> 00:03:27,850
+It's a weird one.
+
+62
+00:03:28,240 --> 00:03:29,650
+So let's say we wanted the remainder.
+
+63
+00:03:29,740 --> 00:03:34,240
+So three goes into ten, three times or three, six, nine and it has a remainder of one.
+
+64
+00:03:34,240 --> 00:03:35,440
+So we can do modules here.
+
+65
+00:03:36,310 --> 00:03:43,300
+And to get that remainder, we use the Modula sign, which is really simply a sign.
+
+66
+00:03:43,330 --> 00:03:46,190
+So we do modulus three and this is going to give us one.
+
+67
+00:03:46,210 --> 00:03:49,410
+And again, that goes three, six, nine.
+
+68
+00:03:49,780 --> 00:03:54,120
+And then it basically takes that last number and says ten minus nine.
+
+69
+00:03:54,430 --> 00:03:56,020
+And that gives us our remainder.
+
+70
+00:03:56,470 --> 00:04:01,060
+And so if you remember doing long division, well, maybe not remember how to do long division, but
+
+71
+00:04:01,060 --> 00:04:05,410
+if you remember long division from school, it's basically that it's going to give us the remainder
+
+72
+00:04:05,410 --> 00:04:06,260
+very easily.
+
+73
+00:04:06,310 --> 00:04:08,470
+We don't have to do any sort of long division.
+
+74
+00:04:09,570 --> 00:04:14,490
+And in fact, a lot of people think you need to know a lot of math to get into Web development or programming
+
+75
+00:04:14,490 --> 00:04:15,330
+or into Python.
+
+76
+00:04:15,810 --> 00:04:16,640
+Truth is, you do not.
+
+77
+00:04:17,220 --> 00:04:19,800
+And here is the case in point.
+
+78
+00:04:19,800 --> 00:04:24,500
+I could do something like 88 Modulus, six point four.
+
+79
+00:04:25,320 --> 00:04:28,020
+Now, I don't remember how to do long division.
+
+80
+00:04:28,030 --> 00:04:30,800
+It's a fairly simple thing in mathematics, but I just don't remember how to do it.
+
+81
+00:04:30,810 --> 00:04:34,620
+That was a long time ago for me, and that was an unexpected indent.
+
+82
+00:04:34,620 --> 00:04:36,840
+If you ever see that, you probably have an extra space in there.
+
+83
+00:04:39,810 --> 00:04:44,670
+This is going to give us a modulus of four point seven nine nine, nine, nine and five.
+
+84
+00:04:46,050 --> 00:04:49,770
+And so I don't need to know long division anymore, the computer knows how to do it, and that is the
+
+85
+00:04:49,770 --> 00:04:54,840
+nice thing about pretty much all programming languages, not just Python, but all programming languages
+
+86
+00:04:54,840 --> 00:04:55,620
+can do this.
+
+87
+00:04:56,450 --> 00:05:00,570
+So what I would like you to do is go ahead and try some basic addition.
+
+88
+00:05:01,520 --> 00:05:02,360
+Subtraction.
+
+89
+00:05:03,420 --> 00:05:05,820
+Division multiplication.
+
+90
+00:05:07,720 --> 00:05:10,540
+Try modulus and also try exponents.
+
+91
+00:05:11,580 --> 00:05:15,840
+Now, truth be told, you're not actually going to be using modulus and exponents all that often, you
+
+92
+00:05:15,840 --> 00:05:21,900
+probably won't even really use multiplication all that often or maybe even division all that often in
+
+93
+00:05:21,900 --> 00:05:22,620
+web development.
+
+94
+00:05:22,620 --> 00:05:25,140
+But in data science, you're going to use these all the time.
+
+95
+00:05:25,140 --> 00:05:29,100
+And these are very, very important, especially when you get into things like algorithms.
+
+96
+00:05:29,100 --> 00:05:34,050
+If you ever wanted to get into algorithms now in Web development, you don't need to get into algorithms.
+
+97
+00:05:34,050 --> 00:05:38,250
+It's not really all that important unless you're working for Google and you're working with Google's
+
+98
+00:05:38,250 --> 00:05:41,250
+search division, which is pretty unique.
+
+99
+00:05:41,250 --> 00:05:43,560
+Most Web development, you just you don't need that.
+
+100
+00:05:44,800 --> 00:05:50,730
+So go ahead and give addition, subtraction, division, multiplication, modulus and exponents a try,
+
+101
+00:05:50,740 --> 00:05:53,140
+make sure you open up your Python terminal.
+
+102
+00:05:53,500 --> 00:05:54,880
+So again, quit.
+
+103
+00:05:55,330 --> 00:06:01,590
+And I just went into Python and that goes straight into my Python terminal for me or my python shell,
+
+104
+00:06:01,600 --> 00:06:03,010
+as I call it, to the python shell.
+
+105
+00:06:03,020 --> 00:06:08,010
+And to quit, you just quit parentheses and that gets you out when you're done that.
+
+106
+00:06:08,020 --> 00:06:11,350
+Let's head on over to the next lesson where we learn about variables.
